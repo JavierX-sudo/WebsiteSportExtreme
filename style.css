@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed
+ 
+}
+
+
+/*TODO:Logo*/
+
+
+
+/*TODO:menu*/
+#navbarNavAltMarkup{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 1em;
+}
+
+
+
+/*TODO:Seccion 1*/
+
+.seccion1{
+    width: 100%;
+    height: 100vh;
+    background: no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   
+}
+
+#seccion_1{
+  background-image: url(img6.jpg);
+  font-family: 'Xanh Mono', monospace;
+  color: black;
+  -webkit-text-stroke: 0,5px;
+}
+
+#seccion_1:before{
+  content: "";
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0.2;
+}
+
+#seccion_1 h1{
+  position: relative;
+  -webkit-text-stroke: 0,9px black;
+  size: 3em;
+  
+}
+
+
+/*TODO:Seccion 2*/
+
+.seccion2{
+width: 100%;
+height:100vh;
+background: fixed no-repeat 50% 50%;
+}
+
+
+#seccion_2{
+background-image: url(img/img16.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: 'Xanh Mono', monospace;
+}
+
+#seccion_2:before{
+
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  position: absolute;
+  opacity: 0.5;
+
+}
+
+#seccion_2 h1{
+  position: relative;
+}
+
+
+
+
+
+.col p{
+
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 2em;
+  position: relative;
+}
+
+@media screen and (max-width: 526px){
+  .col p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    position: relative;
+  }
+}
+
+.col img{
+  max-width: 450px;
+  border-radius: 250px;
+  position: relative;
+}
+
+@media screen and (max-width: 780px){
+  .col img{
+    max-width: 200px;
+  }
+}
+
+.title1 h1{
+
+  font-family: 'Xanh Mono', monospace;
+
+}
+
+
+
+
+/*TODO:seccion 3*/
+
+
+.seccion3{
+ 
+  width: 100%;
+  height:100vh;
+  background: fixed no-repeat 50% 50%;
+  
+  
+  
+  }
+  
+  #seccion_3{
+  background-image: url(img/img18.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Xanh Mono', monospace;
+
+  
+  }
+
+  #seccion_3:before{
+
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0.2;
+  
+  }
+
+  #seccion_3 h1{
+    
+    color: white;
+    position: relative;
+  }
+
+
+.col-sm p{
+  font-family: 'Xanh Mono', monospace;
+  color: white;
+}
+
+
+.col-sm img{
+  max-width: 400px;
+}
+
+
+/*TODO:Seccion 4*/
+
+.seccion4{
+
+  width: 100%;
+  height:100vh;
+  background: fixed no-repeat 50% 50%;
+
+}
+
+
+#seccion_4{
+
+  background-image: url(img/img18.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Xanh Mono', monospace;
+
+}
+
+
+#seccion_4:before{
+
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  position: absolute;
+  opacity: 0.2;
+
+}
+
+#seccion_4 h1{
+  color: white;
+  position: relative;
+}
